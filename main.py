@@ -6,7 +6,9 @@ st.write("""
 
 alas = st.write("masukkan alas = ", 0)
 tinggi = st.write("masukkan tinggi = ", 0)
-luas = st.button("luas")
+panjang = st.write("masukkan panjang = ", 0)
+hitung = st.button("luas")
 
 if hitung:
-  
+  luas = panjang * alas * tinggi
+  st.write("luas = ", luas)
