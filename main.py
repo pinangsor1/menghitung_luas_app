@@ -1,14 +1,14 @@
 import streamlit as st
 
 st.write("""
-# aplikasi menghitung luas sederhana 
+# Aplikasi penjumlahan sederhana
+menjumlahkan dua buah bilangan bulat
 """)
 
-alas = st.write("masukkan alas = ", 0)
-tinggi = st.write("masukkan tinggi = ", 0)
-panjang = st.write("masukkan panjang = ", 0)
-hitung = st.button("luas")
+angka1 = st.write("masukkan angka pertama", 0)
+angka2 = st.write("masukkan angka kedua", 0)
+hitung = st.button("hitung")
 
 if hitung:
-  luas = panjang * alas * tinggi
-  st.write("luas = ", luas)
+  jumlah = angka1 + angka2
+  st.write(angka1, "+", angka2," = ", jumlah
